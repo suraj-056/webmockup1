@@ -1,0 +1,85 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.carousel-item img{
+    height: 90vh;
+}
+.middle{
+    background-color: black;
+    width: 100%;
+    height: 30%;
+    text-align: center;
+}
+.middle h2{
+    font-family: 'Black Ops One', cursive;
+    position: relative;
+    top: 35%;
+    color: yellow;
+}
+.middle p{
+    position: relative;
+    top: 35%;
+    color: gray;
+}
+.card{
+    margin-top: 20%;
+    transition: 1s;
+}
+.card:hover{
+    width: 100%;
+    position: relative;
+    top: -20%;
+    animation-name: anime;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    transition: 1s;
+    box-shadow: 0 8px 16px 0 rgba(247, 219, 219, 0.2), 0 6px 20px 0 rgba(130, 185, 248, 0.19);
+}
+@keyframes anime {
+    0%{
+        position: relative;
+    }
+    25%{
+        position: relative;
+        top: -5%;
+    }
+    50%{
+        position:relative;
+        top:-10%;
+
+    }
+    75%{
+        position: relative;
+        top: -15%;
+    }
+    100%{
+        position: relative;
+        top: 0%;
+    }
+    
+}
+.aboutpage{
+    text-align: center;
+    height: 50vh;
+    margin-top: 20%;
+}
+h1{
+    color: khaki;
+}
+.aboutpage h1{
+    color: wheat;
+}
+.aboutpage p{
+    margin: 8% 20%;
+    color: azure;
+}
+h5{
+    text-align: center;
+    color: lavender;
+}
+.list-unstyled li a{
+    text-decoration: none;
+}
